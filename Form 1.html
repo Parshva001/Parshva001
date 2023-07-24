@@ -1,0 +1,80 @@
+<html>
+<head>
+<title> USIU Questionnaire</title>
+</head>
+<style>
+	body {
+            background-image: url("marvelB2.jpg");
+            background-size: contain
+         }
+		 h1{
+  margin-bottom: 0;
+  text-align:"center";
+  font-family: 'The Avengers';
+  color: turquoise; 
+}
+#nav{
+       flex:1;
+       text-align: left;
+}
+#nav ul li{
+       list-style: none;
+       display: inline-block;
+       padding: 8px 12px;
+       position: relative;
+       color: white;
+}
+#nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        
+  font-family: 'The Avengers';
+
+}
+.redtext 
+{ 
+    color: turquoise; 
+    font-size: 24;
+} 
+</style>
+<body align="center">
+<p align=center><img src = "marvel-logo.gif"></p>
+<div id="nav">
+	<ul align=left>
+		<li><a href="webproj2X.html">Menu</a></li>
+	</ul>
+</div>
+<h1 align=center> Marvel Survey </h1>
+
+<form action="mailto:dodhiaparshva@gmail.com" method=post>
+<p> <span class="redtext">Name:</span> <input type="text" name="Name"> <span class="redtext">Email Address:</span> <input type="text" name="address"></p>
+<p> <span class="redtext">Sex:</span> <input type="radio" name="sex" value="male">Male <input type="radio" name="sex" value="female">Female</p>
+<p> <span class="redtext">Favorite Character:</span> <select name= "Favorite Character">
+		<option> Iron Man 
+		<option> Captain America
+		<option> Thor
+		<option> Black Panther
+		<option> Hulk
+		<option> Hawk Eye
+		<option> Black Widow
+	    </select>
+<p> <span class="redtext">Favorite Movies:</span> </p>
+<p><input type = "checkbox" name= "country" value="DRC"> Iron Man 
+<input type = "checkbox" name= "country" value="Kenya"> Avengers 
+<input type = "checkbox" name= "country" value="Australia"> Avengers Age of Ultron <br>
+<input type = "checkbox" name= "country" value="Senegal"> Iron Man 2 
+<input type = "checkbox" name= "country" value="Senegal"> Iron Man 3 
+<input type = "checkbox" name= "country" value="Senegal"> Avenger Civil War <br>
+<input type = "checkbox" name= "country" value="Senegal"> Avengers Infinity War 
+<input type = "checkbox" name= "country" value="Senegal"> Avengers Endgame 
+<input type = "checkbox" name= "country" value="Senegal"> Hulk 
+<input type = "checkbox" name= "country" value="Senegal"> Thor <br>
+<p> <span class="redtext">Movie's You are Waiting for?</span></p>
+<textarea name="advice" cols="40" rows="5">
+</textarea>
+<h3 align=center> Thank you </h3>
+<p align=center> <input type="submit" value="Submit"> <input type="reset" value="Clear">
+</form>
+</body>
+</html>
